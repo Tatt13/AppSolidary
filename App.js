@@ -42,7 +42,8 @@ App = () => {
               <View style={styles.iconNot}>
                 <FontAwesomeIcon
                   icon={faBell}
-                  
+                  size={20}
+                  color={'#363636'}
                   
                 />
               </View>
@@ -66,7 +67,8 @@ export default App;
 
 const styles = StyleSheet.create({
   iconNot: {
-    color: 'blue',
-    right: 10
+    
+    right: 30,
+    
   }
 })

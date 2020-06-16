@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { View, StyleSheet, Text, TextInput, Image, TouchableOpacity } from 'react-native';
 
 import LinearGradient from 'react-native-linear-gradient';
-import ImagePicker from 'react-native-image-picker';
+
 
 
 export default class DoacaoDinheiro extends Component {

@@ -31,6 +31,7 @@ export default class Actividades extends Component {
               marginTop: 25,
               marginLeft: 15,
               borderRadius: 15,
+              elevation: 10
             }}
           />
         </View>

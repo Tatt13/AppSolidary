@@ -70,7 +70,8 @@ var styles = StyleSheet.create({
     },
     footer: {
         flex: 1,
-        backgroundColor: 'white',        
+        backgroundColor: 'white',
+        
         borderTopRightRadius: 98,
         borderBottomRightRadius: 98,
         paddingVertical: 58,
