@@ -11,7 +11,7 @@ import * as Animatable from 'react-native-animatable';
 export default class Login extends Component {
     constructor(props) {
         super(props)
-        this.state = { email: "", senha: "" }
+        this.state = { email: "", senha: "",  check_textInputChange: false, password:'', secureTextEntry: true }
         this.signin = this.signin.bind(this)
     }
     async signin() {
@@ -25,15 +25,6 @@ export default class Login extends Component {
 
         this.props.navigation.navigate('Home')
     }
-
-    
-        super(props){
-            this.state={
-                check_textInputChange: false,
-                password:'',
-                secureTextEntry: true
-            }
-        }
         
     
 
